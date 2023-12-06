@@ -38,7 +38,7 @@ const HeroSection = () => {
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
           
-          "Passionate Fresher Developer: Turning Lines of Code into Stories of Success"
+          Passionate Fresher Developer Turning Lines of Code into Stories of Success
           </p>
           <div>
             <Link
