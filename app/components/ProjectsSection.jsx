@@ -33,6 +33,23 @@ const projectsData = [
     gitUrl: "https://github.com/Molik-Jain/Inotes",
     previewUrl: "/",
   },
+  {
+    id: 4,
+    title: "HomeMed",
+    description: "Homemed is a straightforward medical application aimed at offering prescriptions for treatable illnesses that individuals can manage conveniently from their homes.",
+    image: "/images/projects/4-2.png",
+    tag: ["All","Web"],
+    gitUrl: "https://github.com/Molik-Jain/HomeMed",
+    previewUrl: "/",
+  },{
+    id: 5,
+    title: "Online Library Management System",
+    description: "An online library management system is a digital platform that automates library tasks, facilitating efficient organization of resources, user registration, circulation management, and providing features like online catalogs for improved accessibility and organization.",
+    image: "/images/projects/5-2.png",
+    tag: ["All","Web"],
+    gitUrl: "https://github.com/Molik-Jain/Library_Management",
+    previewUrl: "https://librarymanagementsmjvvadodara.000webhostapp.com/",
+  },
 ];
 
 const ProjectsSection = () => {
