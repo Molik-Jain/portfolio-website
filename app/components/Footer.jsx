@@ -7,7 +7,7 @@ const Footer = () => {
         <Image src="/images/LOGO2.png" width={100}
               height={50} alt="LOGO" ></Image>
               
-        <p className="text-slate-600">All rights reserved.</p>
+        <p className="text-slate-600">Molik Jain 2023 Inc. All rights reserved.</p>
       </div>
     </footer>
   );
