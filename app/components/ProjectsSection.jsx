@@ -50,6 +50,15 @@ const projectsData = [
     gitUrl: "https://github.com/Molik-Jain/Library_Management",
     previewUrl: "https://librarymanagementsmjvvadodara.000webhostapp.com/",
   },
+  {
+    id:6,
+    title:"Whisper-Vault",
+    description:"Whisper-Vault is a digital sanctuary where users can freely share their innermost thoughts, emotions, and secrets without revealing their identity. By providing a safe and cathartic space, the platform aims to promote emotional well-being, foster connections among users, and combat the isolation and stigma often associated with mental health issues in online spaces.",
+    image: "/images/projects/6-1.png",
+    tag: ["All","Web"],
+    gitUrl:"https://github.com/Molik-Jain/Whisper-Vault",
+    previewUrl:"/"
+  }
 ];
 
 const ProjectsSection = () => {
@@ -102,6 +111,7 @@ const ProjectsSection = () => {
             transition={{ duration: 0.3, delay: index * 0.4 }}
           >
             <ProjectCard
+            
               key={project.id}
               title={project.title}
               description={project.description}
